@@ -20,7 +20,6 @@ class MainActivity : AppCompatActivity() {
         supportFragmentManager
             .beginTransaction()
             .add(R.id.fragmentContainerView, fragmentTest)
-            .add(R.id.fragmentTest, fragmentTest)
             .commit()
 
 
